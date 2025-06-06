@@ -5,3 +5,4 @@ accelerate==1.7.0
 fastapi==0.115.12
 pydantic==2.11.5
 uvicorn==0.34.2
+huggingface-hub==0.32.4

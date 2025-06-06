@@ -6,6 +6,9 @@ __pycache__/
 # C extensions
 *.so
 
+# Model
+model/bge-reranker-v2-m3/
+
 # Distribution / packaging
 .Python
 build/
