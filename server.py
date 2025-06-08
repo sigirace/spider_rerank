@@ -3,7 +3,7 @@ from typing import List, Annotated
 from fastapi import FastAPI, Query, HTTPException
 from pydantic import BaseModel
 
-import uvicorn
+# import uvicorn
 
 from model.bge_reranker import BGEReranker
 
@@ -50,5 +50,5 @@ def rerank(request: ReRankRequestBody):
     return response
 
 
-if __name__ == "__main__":
-    uvicorn.run(app, host="0.0.0.0", port=8002)
+# if __name__ == "__main__":
+#     uvicorn.run(app, host="0.0.0.0", port=8002)
